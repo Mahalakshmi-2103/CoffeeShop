@@ -551,10 +551,9 @@ span {
     word-spacing: normal;
   }
 
-  .popularBox {
-    width: 237px;
+  .popularBox img {
+    width: 207px;
     height: auto;
-padding: 0rem 2rem;
   }
 
   .teamBox img {
