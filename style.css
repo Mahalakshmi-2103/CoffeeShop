@@ -551,7 +551,7 @@ span {
     word-spacing: normal;
   }
 
-  .popularImg img {
+ .popularBox figure img {
     width: 247px;
     height: auto;
   }
