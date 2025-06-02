@@ -323,7 +323,7 @@ footer {
 
 .heroBox {
   height: 100%;
-  width: 50%;
+  width: 55%;
   /* to check in responsive*/
 }
 
@@ -483,8 +483,16 @@ span {
     padding: 0rem 1rem;
   }
 
-  
-  .navLinks{
+  .navLinkBox,
+  .navLinks li a {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 1rem 0rem;
+    margin-right: 1rem;
+  }
+
+  .navLinks {
     display: flex;
     align-items: end;
     justify-content: end;
@@ -496,12 +504,12 @@ span {
     display: block;
     position: absolute;
     top: 3rem;
-    right: 6.5rem;
+    right: 5.5rem;
     cursor: pointer;
   }
 
   .navLinks {
-    flex-direction:column;
+    flex-direction: column;
     display: none;
   }
 
@@ -544,12 +552,12 @@ span {
   }
 
   .popularBox {
-    width: 297px;
+    width: 237px;
     height: auto;
-
+padding: 0rem 2rem;
   }
 
-  .teamBox img{
+  .teamBox img {
     width: 257px;
     height: auto;
     padding: 0rem 2rem;
