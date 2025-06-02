@@ -523,8 +523,8 @@ span {
 
   } */
 
-  .heroBlock {
-    width: 110%;
+  .heroBox{
+    width: 120%;
     height: 100%;
     /* position: absolute;
     top: 3.5rem; */
