@@ -520,9 +520,11 @@ span {
     background-size: auto;
     padding: 20rem 0rem 35rem 0rem;
   }
-
+.heroBox button{
+  width: 100%;
+}
   .heroBox {
-    width: 50%;
+    width: 55%;
     height: 100%;
     /* text-wrap: balance; */
     /* position: absolute;
