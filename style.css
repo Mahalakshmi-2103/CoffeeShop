@@ -38,13 +38,13 @@ button,
 h3,
 li {
   font-family: "Nunito Sans", serif;
-  font-size: 20px;
+  font-size: 2.0rem;
   font-weight: 400;
 }
 
 h1 {
   font-family: "Merienda", serif;
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: 800;
   line-height: 1.2;
 }
@@ -53,13 +53,13 @@ h2 {
   font-family: "Merienda", serif;
   font-weight: 800;
   line-height: 1.2;
-  font-size: 40px;
+  font-size: 4rem;
   padding-bottom: 2rem;
 }
 
 p {
   font-family: "Nunito Sans", serif;
-  font-size: 15px;
+  font-size: 1.5rem;
   /* padding: 1rem 0rem; */
 }
 
@@ -88,14 +88,14 @@ button:hover {
 ::-webkit-scrollbar {
   width: 1.5rem;
   /* Vertical scrollbar */
-  height: 10px;
+  height: 1rem;
   /* Horizontal scrollbar */
 }
 
 /* Track (background of the scrollbar) */
 ::-webkit-scrollbar-track {
   background: #e3e4e6;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 /* Scrollbar thumb (the draggable part) */
@@ -120,9 +120,7 @@ h5,
 p {
   /* text-wrap: balance; */
   color: #212529;
-  text-transform: capitalize;
-  letter-spacing: 0.2px;
-  /* padding: 1rem 0rem; */
+
 }
 
 input,
@@ -171,14 +169,14 @@ a {
 }
 
 .screenSize {
-  max-width: 1200px;
+  max-width: 120rem;
   /* Device Screen Size */
   margin: auto;
   /* Left and right Center */
 }
 
 .screenSizeTwo {
-  max-width: 1000px;
+  max-width: 100rem;
   /* Device Screen Size */
   margin: auto;
   /* Left and right Center */
@@ -284,7 +282,7 @@ footer {
 
 .logoBox figure img {
   width: auto;
-  height: 50px;
+  height: 5rem;
 }
 
 .navLinkBox {
@@ -301,9 +299,9 @@ footer {
 
 .navLinkBox .dropDown {
   color: #302d2d80;
-  font-size: 28px;
-  border: 1px solid #5e5c5c80;
-  padding: 2px 12px;
+  font-size: 2.8rem;
+  border: 0.1rem solid #5e5c5c80;
+  padding: 0.2rem 1.2rem;
   border-radius: 0.3rem;
   display: none;
 
@@ -323,12 +321,16 @@ footer {
 
 .heroBox {
   height: 100%;
-  width: 50%;
+  width: 45%;
   /* to check in responsive*/
+}
+.heroBox p{
+
+    text-wrap:pretty;
 }
 
 .brown {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 /* Hero Section code */
@@ -337,7 +339,7 @@ footer {
 /* :::MAIN Code Starts here::: */
 /* Our Menu code */
 .imageBox figure img {
-  width: 540px;
+  width: 54rem;
   aspect-ratio: 3/3;
   padding-left: 1rem;
 }
@@ -355,7 +357,7 @@ footer {
 /* Facility code */
 .headingBox img {
   width: auto;
-  height: 40px;
+  height: 4rem;
   /* padding-top: 1rem; */
 }
 
@@ -368,8 +370,8 @@ footer {
 }
 
 .facilityCardMain p {
-  word-spacing: 1.5rem;
-  margin: 1rem 1rem;
+  /* word-spacing: 1.5rem; */
+  margin: 1rem 0rem 0rem 3rem;
   text-align: start;
   font-weight: 400;
 }
@@ -388,7 +390,7 @@ footer {
   /* width: auto;
   height: 330px; */
   padding: 1rem 1rem;
-  width: 545px;
+  width: 54.5rem;
   aspect-ratio: 2/1.5;
 }
 
@@ -416,9 +418,33 @@ footer {
 /* Contact code */
 .formImageBox figure img {
   width: 450;
-  aspect-ratio: 2/2.5;
+  aspect-ratio: 2.5/3;
 }
-
+.bookBox{
+  border: 0.1rem solid #212529;
+  padding: 0.8rem 0rem 0rem ;
+ 
+}
+.bookBox h3{
+   font-size: 3.5rem;
+   font-weight: 600;
+}
+.formGroup{
+  padding: 1rem 2rem 2rem 3rem;
+}
+.formGroup input{
+  padding: 1.3rem 0rem 1rem 1.3rem;
+  font-size: 2.5rem;
+  border: 0.1rem solid ;
+  width: 47rem;
+}
+.bookBox button{
+  margin: 0.5rem 0rem 3rem;
+}
+.formGroup input:focus{
+  border: 0.2rem solid rgb(175, 224, 243);
+  outline: 0.2rem solid rgb(199, 228, 240);
+}
 /* Contact code */
 
 /* Contact Icons code */
@@ -428,18 +454,18 @@ footer {
 
 .contactCardHeader i {
   background-color: #be9c79;
-  padding: 13px;
+  padding: 1.3rem;
   /* --primaryColor: #be9c79; */
   border-radius: 100%;
-  height: 70px;
-  width: 70px;
-  font-size: 40px;
+  height: 7rem;
+  width: 7rem;
+  font-size: 4rem;
   color: white;
   margin: 2rem 0rem 1rem 0rem;
 }
 
 .contactCardMain p {
-  font-size: 20px;
+  font-size: 2rem;
   /* padding-bottom: 0.5rem; */
   font-weight: 400;
 }
@@ -450,12 +476,12 @@ footer {
 }
 
 .contactIconBody {
-  border-bottom: 2px solid black;
+  border-bottom: 0.2rem solid black;
   padding-bottom: 4rem;
 }
 
 .copyrightBox p {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 500;
 }
 
@@ -508,44 +534,37 @@ span {
     display: flex;
   }
 
-  .hero {
-    background-size: auto;
-    padding: 20rem 0rem 35rem 0rem;
-  }
-.heroBox button{
-  width: 55%;
-}
   .heroBox {
-    width: 57%;
+    width: 50%;
     height: 100%;
     /* text-wrap: balance; */
     /* position: absolute;
     top: 3.5rem; */
-    padding-left: 3.5rem;
+    padding-left: 1rem;
   }
 
   h1 {
-    font-size: 30px;
+    font-size: 3rem;
+    /* text-align: center; */
   }
 
   p {
-    font-size: 12px;
+    font-size: 1.6rem;
     font-weight: 400;
     text-wrap: balance;
-    word-spacing: normal;
   }
 
   .headingBox figure img {
-    width: 180px;
+    width: 18rem;
     height: auto;
   }
-
-  .facilityCardMain p {
-    word-spacing: normal;
-  }
+.facilityCardMain p{
+  text-wrap: normal;
+   text-align: center;
+}
 
   .popularBox figure img {
-    width: 247px;
+    width: 24.7rem;
     height: auto;
   }
 
@@ -554,7 +573,7 @@ span {
   }
 
   .teamBox img {
-    width: 257px;
+    width: 25.7rem;
     height: auto;
     padding: 0rem 2rem;
   }
@@ -592,7 +611,7 @@ span {
   }
 
   p {
-    font-size: 12px;
+    font-size: 1.6rem;
     font-weight: 400;
     text-wrap: balance;
     /* word-spacing:normal; */
@@ -603,24 +622,3 @@ span {
   }
 }
 
-/* Large devices (Laptops, upto 992px and above) */
-/* @media (min-width: 769px) and (max-width: 992px) */
-
-@media (min-width:769px) and (max-width: 992px) {
-  .grid-4 {
-    grid-template-columns: 1fr 1fr;
-    padding: 0rem 1rem;
-  }
-}
-
-/* X-Large devices (large desktops, upto 1200px and above) */
-/* @media (min-width: 993px) and (max-width: 1200px) */
-@media (min-width:993px) and (max-width:1200px) {
-  /* write code here */
-}
-
-/* XX-Large devices (larger desktops, upto 1400px and above) */
-/* @media (min-width: 1200px)  */
-@media (width:1200px) {
-  /* write code here */
-}
